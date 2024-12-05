@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull code from GitHub
-                git 'https://github.com/username/date-time.git'
+                git 'https://github.com/riot020/date-time.git'
             }
         }
         stage('Run Shell Script') {
